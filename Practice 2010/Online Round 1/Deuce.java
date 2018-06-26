@@ -24,9 +24,7 @@ public class Deuce {
 			if(cards.charAt(last) == 'C' && cards.charAt(last-1) == '2') {
 				result = 0;
 			}
-			if(cards.charAt(97) == 'C' && cards.charAt(96) == '2') {
-				result = 0;
-			}
+			
 			last = last -2;			
 		}
 		
