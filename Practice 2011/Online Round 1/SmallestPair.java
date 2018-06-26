@@ -16,7 +16,7 @@ public class SmallestPair {
 				
 			sum = numbers[i] + numbers[i+1];
 			if(sum < smallest) {
-					smallest = sum;
+				smallest = sum;
 			}
 			
 		}
