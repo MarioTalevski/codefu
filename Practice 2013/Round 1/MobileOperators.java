@@ -6,7 +6,7 @@ public class MobileOperators {
 		String[] A = {"070","071","072"};
 		String[] B = {"075","076"};
 		String[] C = {"077","078"};
-		String result = null;
+		String result = "Operator A";
 		int cntA = 0 , cntB = 0 , cntC= 0, resultA =0, resultB = 0, resultC =0;
 		
 		for(int i=0; i<numbers.length; i++) {
