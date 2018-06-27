@@ -59,8 +59,6 @@ public class MobileOperators {
 			result = "Operator C";
 		}
 		
-		
-		
 		if(resultA == resultB && resultA > resultC) {
 			result = "Operator A";
 		}
@@ -79,8 +77,6 @@ public class MobileOperators {
 		if(resultC == resultB && resultC > resultA) {
 			result = "Operator B";
 		}
-		
-		
 		
 		System.out.println(result);
 	}
